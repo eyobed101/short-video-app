@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "nodemon":"npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eyobed101/short-video-app.git"
+  },
+  "author": "ET",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eyobed101/short-video-app/issues"
+  },
+  "homepage": "https://github.com/eyobed101/short-video-app#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.4.2",
+    "nodemon": "^3.0.1"
+  }
+}
