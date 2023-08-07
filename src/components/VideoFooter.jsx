@@ -2,6 +2,7 @@ import React, { useEffect, useState, useRef } from "react";
 import "./VideoFooter.css";
 import MusicNoteIcon from "@material-ui/icons/MusicNote";
 import Ticker from "react-ticker";
+import Marquee from "react-fast-marquee";
 
 const VideoFooter = ({ channel, description, song }) => {
   return (
@@ -11,19 +12,15 @@ const VideoFooter = ({ channel, description, song }) => {
         <p>{description}</p>
         <div className="videoFooter__ticker">
           <MusicNoteIcon className="videoFooter__icon" />
-          <Ticker mode="smooth">
-            {({ index }) => (
-              <>
-                <p>{song}</p>
-              </>
-            )}
-          </Ticker>
+          
+          <Marquee>
+          <p style={{color:"white"}}>{song}</p>
+          </Marquee>
         </div>
       </div>
       <img
         className="videoFooter__record"
-        src="https://static.
-    thenounproject.com/png/934821-200.png"
+        src="https://static.thenounproject.com/png/934821-200.png"
         alt="video footer"
       />
     </div>

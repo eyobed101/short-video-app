@@ -18,10 +18,10 @@
 videoFooter__icon {
   position: absolute;
 }
-.videoFooter__ticker  .ticker {
+.videoFooter__ticker   {
   height: fit-content;
   margin-left: 30px;
-  width: 60%;
+  width: 90%;
 }
 .videoFooter__record {
   animation: spinTheRecord infinite 5s linear;
