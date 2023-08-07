@@ -1,4 +1,4 @@
-Short Video App
+#Short Video App
 This is a simple short video app built using Vite, a fast build tool for modern web development. With this app, you can create and share short videos with your friends and family.
 
 Features
