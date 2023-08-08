@@ -33,9 +33,12 @@ const Video = ({
         loop
         ref={videoRef}
         onClick={handleVideoPress}
-      ></video>
-      <VideoFooter channel={channel} description={description} song={song} />
-      <VideoSidebar likes={likes} shares={shares} messages={messages} />
+      >
+      
+      </video>
+      <VideoFooter className="video_footer" channel={channel} description={description} song={song} />
+      <VideoSidebar  likes={likes} shares={shares} messages={messages} />
+      
     </div>
   );
 };

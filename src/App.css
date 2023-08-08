@@ -10,16 +10,16 @@ html {
 }
 .app {
   height: 100vh;
-  background-color: black;
+  /* background-color: black; */
   display: grid;
   place-items: center;
 }
 .app__videos {
   position: relative;
-  height: 800px;
+  height: 100%;
   border-radius: 10px;
   overflow: scroll;
-  width: 80%;
+  width: 100%;
   max-width: 500px;
   scroll-snap-type: y mandatory;
 }

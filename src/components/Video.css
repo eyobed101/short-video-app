@@ -6,7 +6,12 @@
   scroll-snap-align: start;
 }
 .video__player {
+  /* position:absolute; */
   object-fit: fill;
   width: 100%;
   height: 100%;
+  
+}
+.video_footer {
+  justify-content: left;
 }
